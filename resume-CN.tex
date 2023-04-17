@@ -1,0 +1,87 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{吴正誉}
+
+\basicInfo{
+  \email{657714969@qq.com} \textperiodcentered\ 
+  \phone{(+86) 13667177917} \textperiodcentered\ 
+  }
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{华中科技大学}, 武汉}{2019年9月 -- 至今}
+\textit{在读本科生}\ 计算机科学与技术, 预计 2023 年 6 月毕业
+
+
+\section{\faUsers\ 实习/项目经历}
+\datedsubsection{\textbf{武汉市城市管理技术研究中心} 武汉}{2022年7月 -- 2022年8月}
+\role{实习}{指导人: 刘竑}
+环卫信息组（科技信息室）
+\begin{itemize}
+  \item 学习并参与测评抽样小程序开发
+  \item 智慧环卫系统设计
+\end{itemize}
+
+\datedsubsection{\textbf{Web Server软件程序实现}}{2021年11月 -- 2021年12月}
+\role{C++}{计算机网络课程实验项目}
+\begin{onehalfspacing}
+\begin{itemize}
+  \item 可配置Web服务器的监听地址、监听端口和主目录
+  \item 可单线程处理客户端的访问请求，创建一个由请求的文件组成的http响应报文
+  \item 经TCP连接向请求的浏览器发送响应，浏览器正确显示内容
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{基于内存的英文全文检索搜索引擎}}{2021 年3月 -- 2021年5月}
+\role{Java}{Java课程项目}
+\begin{onehalfspacing}
+\begin{itemize}
+  \item 扫描指定文本，建立倒排索引
+  \item 实现单个关键词或包含2个单词的短语的检索
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{基于SAT的二进制数独游戏}}{2021年2月 -- 2021年3月}
+\role{C++}{课程设计项目}
+\begin{onehalfspacing}
+\begin{itemize}
+  \item 实现基于DPLL算法的SAT求解器
+  \item 可交互的数独游戏生成，具有自动求解功能
+\end{itemize}
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: Java > C++ = C 
+  \item 开发: 了解过Java语言开发框架
+\end{itemize}
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 语言: 英语 
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
